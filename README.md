@@ -5,9 +5,9 @@ We can use matrices (3 for each axis) for calculating the rotation of a vertex a
 Example:
 ```c
 cos(90) = 0 / sin(90) = 1
-          [  1       0        0     ] [ 0 ]   [ 0 ] (  1*0  +  0*1  +  0*0 )
- Rx(90) = [  0    cos(90) -sin(90)  ] [ 1 ] = [ 0 ] (  0*0  +  0*1  + -1*0 )
-          [  0    sin(90)  cos(90)  ] [ 0 ]   [ 1 ] (  0*0  +  1*1  +  0*0 )
+          [  1       0        0     ] [ 0 ]   [ 0 ] ( 1*0  +  0*1  +  0*0 )
+ Rx(90) = [  0    cos(90) -sin(90)  ] [ 1 ] = [ 0 ] ( 0*0  +  0*1  + -1*0 )
+          [  0    sin(90)  cos(90)  ] [ 0 ]   [ 1 ] ( 0*0  +  1*1  +  0*0 )
 
       [ 0 ]   [ 0 ] X Coordinate
 Rx(90)[ 1 ] = [ 0 ] Y Coordinate
