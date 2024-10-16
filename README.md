@@ -1,11 +1,18 @@
 # 3D Rotation in C WIP
 A Matrix is a algebraic type of table or array comparable to a 2D array in programming.
 We can use matrices (3 for each axis) for calculating the rotation of a vertex around an axis with degrees or radians. 
-(whatever your trigonometry functions are set at)
+(whatever your trigonometry functions are set at) <br>
+Example:
+```c
+cos(90) = 0 / sin(90) = 1
+          [  1       0        0     ] [ 0 ]   [ 0 ] (  1*0  +  0*1  +  0*0 )
+ Rx(90) = [  0    cos(90) -sin(90)  ] [ 1 ] = [ 0 ] (  0*0  +  0*1  + -1*0 )
+          [  0    sin(90)  cos(90)  ] [ 0 ]   [ 1 ] (  0*0  +  1*1  +  0*0 )
 
-[
-[
-[
+      [ 0 ]   [ 0 ]
+Rx(90)[ 1 ] = [ 0 ]
+      [ 0 ]   [ 1 ]
+```
 
 * testmatrix.c - For your own authentication of the functions I provide in the header
 * rmatrix.h - For the functions
