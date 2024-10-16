@@ -1,4 +1,4 @@
-# 3D Rotation in C WIP
+# 3D Rotation in C
 A Matrix is a algebraic type of table or array comparable to a 2D array in programming.
 We can use matrices (3 for each axis) for calculating the rotation of a vertex around an axis with degrees or radians. 
 (whatever your trigonometry functions are set at) <br>
