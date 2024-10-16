@@ -1,4 +1,4 @@
-# 3D Rotation in C
+# 3D Rotation in C WIP
 Calculating the 3 3D Rotation Matrices in C and explaining each one <br> 
 I have devised two files
 * testmatrix.c - For your own authentication of the functions I provide in the header
