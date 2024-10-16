@@ -9,9 +9,10 @@ cos(90) = 0 / sin(90) = 1
  Rx(90) = [  0    cos(90) -sin(90)  ] [ 1 ] = [ 0 ] (  0*0  +  0*1  + -1*0 )
           [  0    sin(90)  cos(90)  ] [ 0 ]   [ 1 ] (  0*0  +  1*1  +  0*0 )
 
-      [ 0 ]   [ 0 ]
-Rx(90)[ 1 ] = [ 0 ]
-      [ 0 ]   [ 1 ]
+      [ 0 ]   [ 0 ] X Coordinate
+Rx(90)[ 1 ] = [ 0 ] Y Coordinate
+      [ 0 ]   [ 1 ] Z Coordinate
+so the output would be (0, 0, 1) 
 ```
 
 * testmatrix.c - For your own authentication of the functions I provide in the header
